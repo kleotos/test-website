@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255,241,229);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  header .adt{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    font-weight: 900;
+    color: black;
+    opacity: 0.5;
+  }
+
+  header h1 {
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 400;
+    color: #0c1115;
+    line-height: 12px;
+    font-family: "playfair display";
+  }
+
+  .horizontal-line {
+    border: none; 
+    border-top: 1px solid #ccc; 
+    width: 100%; 
+    margin: 0; 
+    color: #fff1e5;
+  }
+  
+  .bws p {
+    font-family: "muli";
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+
+  .bws p span {
+    color:rgb(153,15,61); 
+  }
+
+  .nhs p{
+    font-family: "fairplay display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    color: #0c1115;
+  }
+
+  .nhs p span {
+    font-weight: 400;
+    font-size: normal;
+    font-family: "mule";
+    font-size: 18px;
+    line-height: 27px;
+    color:rgb(153,15,61); 
+
+  }
+
+
+  .custom-hr {
+    border: none;
+    border-top: 3px solid black; 
+    width: 100%; 
+    margin: 20px 0; 
+  }
+  
+  section .text {
+    max-width: 300px;
+  }
+  
+  .date {
+    font-weight: 300px;
+    font-size: 14px;
+    letter-spacing: 0;
+    font-style: italic;
+    color: rgb(153,15,61);
+    font-weight: bold;
+  }
+  
+   .green {
+    font-weight: 700;
+    color: 0000000;
+  } 
+  
+  main p {
+    font-family: "Georgia", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .ntc {
+    border-left: 5px solid rgb(153,15,61);
+    padding-left: 2rem;
+    margin: 4rem 0;
+  }
+
+  .ntc p {
+    font-style:  italic;
+
+  }
+
+ img {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 20%;
+}
+
+  header {
+    text-align: center;
+  }
+
+  main {
+    text-align: center;
+  }
+
+
+
+
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-box {
+    width: calc(50% - 20px); /* Adjust as needed */
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .image-box img {
+    width: 100%;
+    height: auto;
+    /* display: block; */
+  }
+
+ 
+
+
+
+  
+
+
+   #presentation-text {
+    color: black;
+    cursor: pointer;
+    font-family: "muli";
+    font-size: 28px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 37px;
+    color: black;
+    text-align: center;
+  } 
+
+  a {
+    text-decoration: none;
+  }
+  
+  #presentation {
+    text-align: center;
+  }
+  
+  #presentation-text {
+    font-size: 36px;
+    color: blue; 
+    animation: changeColor 3s infinite alternate; 
+  }
+  
+  @keyframes changeColor {
+    0% {
+      color: blue; 
+    }
+    50% {
+      color: green;
+    }
+    100% {
+      color: rgb(153,15,61);
+    }
+  }
+
+ .vsl img {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+   max-height: 20%;
+ }
+
+   footer {
+    text-align: center;
+  }
+ 
+  @media (max-width: 768px) {
+    .image-box {
+      width: calc(100%);
+     
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+     
+    }
+
+    .card-container img {
+      width: 100%; 
+      height: 100%; 
+      
+    }
+
+    main p {
+      font-family: "Georgia", serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19px;
+      text-align: justify;
+    }
+
+    .ntc {
+      border-left: 3px solid rgb(153,15,61);
+      padding-left: .5rem;
+      margin: 4rem 0;
+    }
+
+    img {
+        width: 100%;
+        max-width: 400px;
+       height: auto;
+    }
+
+    .nhs p{
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 50px;
+    }
+  
+    .nhs p span {
+      font-size: 9px;
+      text-align: center;
+      color: rgb(153,15,61);
+      font-weight: 900;
+    }
+
+    header h1 {
+      line-height: 32px;
+    }
+  }
