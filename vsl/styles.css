@@ -5,12 +5,21 @@ body {
   background-color: rgb(255,241,229);
 }
 
+
 .container {
   width: 90%;
   margin: 0 auto;
   padding: 0 10px;
 }
 
+header .adt{
+  text-align: center;
+  font-size: 10px;
+  padding-top: 5px;
+  font-weight: 900;
+  color: black;
+  opacity: 0.5;
+}
 
 header h1 {
   font-style: normal;
@@ -41,6 +50,42 @@ header h1 span {
   font-weight: 400;
   line-height: 27px;
 }
+
+
+
+
+#slide-in {
+	position: absolute;
+	background-color: #000000e2;
+	padding: 10px;
+	margin: 30px;
+	max-width: 15rem;
+	right: 0;
+	top: 0;
+	border-radius: 5px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	display: none;
+}
+#slide-in p {
+	color: white;
+	font-size: 15px;
+	margin: 0;
+}
+
+#close {
+	position: absolute;
+	font-size: 14px;
+	color: white;
+	padding: 10px;
+	right: -11px;
+	top: -11px;
+}
+
+
+
+
+
+
 
 .bws p span {
   color:rgb(153,15,61); 
@@ -117,6 +162,38 @@ a {
 header {
   text-align: center;
 }
+
+
+
+#whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  font-size: 70px;
+	color: rgb(42,212,105);
+  background-image: url('whatsapp-icon.png'); /* Replace 'whatsapp-icon.png' with the path to your WhatsApp icon image */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#whatsapp:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   text-align: center;
@@ -1828,10 +1905,34 @@ footer .disclaimer {
 
 
 
-
-
 @media (max-width: 768px) {
-  
+  header h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#slide-in {
+	padding: 10px;
+	margin: 30px 12px;
+	max-width: 13rem;
+}
+#slide-in p {
+	font-size: 10px;
+}
+
+
+
+  #whatsapp {
+    width: 30px;
+    font-size: 45px;
+  }
 }
 
 @media (min-width: 300px) {
