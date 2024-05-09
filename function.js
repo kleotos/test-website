@@ -1,8 +1,7 @@
-// ================= DEFAULT DISABLE ====================
-document.addEventListener('contextmenu', function (event) {
-  event.preventDefault();
+// ======================== RIGHT-CLICK ======================
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
 });
-
 
 // =================== IMAGE CARD =========================
 document.addEventListener("DOMContentLoaded", function() {
